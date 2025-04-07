@@ -28,8 +28,11 @@ endpoints:
     fileParameters: []
     responses:
       -
-        status: 401
-        content: '{"message":"Unauthenticated."}'
+        status: 404
+        content: |-
+          {
+              "message": "The route api/v1/user could not be found."
+          }
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json

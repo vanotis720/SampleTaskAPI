@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Laravel API Documentation</title>
+    <title>TaskAPI API Documentation</title>
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 
@@ -26,7 +26,7 @@
             </style>
 
     <script>
-        var tryItOutBaseUrl = "http://localhost";
+        var tryItOutBaseUrl = "https://lightgray-wallaby-103580.hostingersite.com/";
         var useCsrf = Boolean();
         var csrfUrl = "/sanctum/csrf-cookie";
     </script>
@@ -157,7 +157,7 @@
     <div class="content">
         <h1 id="introduction">Introduction</h1>
 <aside>
-    <strong>Base URL</strong>: <code>http://localhost</code>
+    <strong>Base URL</strong>: <code>https://papayawhip-lark-845712.hostingersite.com</code>
 </aside>
 <pre><code>This documentation aims to provide all the information you need to work with our API.
 
@@ -184,7 +184,7 @@ You can switch the language used with the tabs at the top right (or from the nav
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request POST \
-    "http://localhost/api/v1/register" \
+    "https://lightgray-wallaby-103580.hostingersite.com/api/v1/register" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
@@ -198,7 +198,7 @@ You can switch the language used with the tabs at the top right (or from the nav
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/v1/register"
+    "https://lightgray-wallaby-103580.hostingersite.com/api/v1/register"
 );
 
 const headers = {
@@ -383,7 +383,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request POST \
-    "http://localhost/api/v1/login" \
+    "https://lightgray-wallaby-103580.hostingersite.com/api/v1/login" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
@@ -395,7 +395,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/v1/login"
+    "https://lightgray-wallaby-103580.hostingersite.com/api/v1/login"
 );
 
 const headers = {
@@ -557,14 +557,14 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request POST \
-    "http://localhost/api/v1/logout" \
+    "https://lightgray-wallaby-103580.hostingersite.com/api/v1/logout" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/v1/logout"
+    "https://lightgray-wallaby-103580.hostingersite.com/api/v1/logout"
 );
 
 const headers = {
@@ -688,14 +688,14 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost/api/v1/categories" \
+    --get "https://lightgray-wallaby-103580.hostingersite.com/api/v1/categories" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/v1/categories"
+    "https://lightgray-wallaby-103580.hostingersite.com/api/v1/categories"
 );
 
 const headers = {
@@ -836,7 +836,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request POST \
-    "http://localhost/api/v1/categories" \
+    "https://lightgray-wallaby-103580.hostingersite.com/api/v1/categories" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
@@ -848,7 +848,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/v1/categories"
+    "https://lightgray-wallaby-103580.hostingersite.com/api/v1/categories"
 );
 
 const headers = {
@@ -1019,14 +1019,14 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost/api/v1/categories/16" \
+    --get "https://lightgray-wallaby-103580.hostingersite.com/api/v1/categories/2" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/v1/categories/16"
+    "https://lightgray-wallaby-103580.hostingersite.com/api/v1/categories/2"
 );
 
 const headers = {
@@ -1159,10 +1159,10 @@ You can check the Dev Tools console for debugging information.</code></pre>
  &nbsp;
                 <input type="number" style="display: none"
                step="any"               name="id"                data-endpoint="GETapi-v1-categories--id-"
-               value="16"
+               value="2"
                data-component="url">
     <br>
-<p>The ID of the category. Example: <code>16</code></p>
+<p>The ID of the category. Example: <code>2</code></p>
             </div>
                     <div style="padding-left: 28px; clear: unset;">
                 <b style="line-height: 2;"><code>category</code></b>&nbsp;&nbsp;
@@ -1191,7 +1191,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request PUT \
-    "http://localhost/api/v1/categories/16" \
+    "https://lightgray-wallaby-103580.hostingersite.com/api/v1/categories/2" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
@@ -1203,7 +1203,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/v1/categories/16"
+    "https://lightgray-wallaby-103580.hostingersite.com/api/v1/categories/2"
 );
 
 const headers = {
@@ -1346,10 +1346,10 @@ You can check the Dev Tools console for debugging information.</code></pre>
  &nbsp;
                 <input type="number" style="display: none"
                step="any"               name="id"                data-endpoint="PUTapi-v1-categories--id-"
-               value="16"
+               value="2"
                data-component="url">
     <br>
-<p>The ID of the category. Example: <code>16</code></p>
+<p>The ID of the category. Example: <code>2</code></p>
             </div>
                     <div style="padding-left: 28px; clear: unset;">
                 <b style="line-height: 2;"><code>category</code></b>&nbsp;&nbsp;
@@ -1402,14 +1402,14 @@ Associated tasks will have their category_id set to null.</p>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost/api/v1/categories/16" \
+    "https://lightgray-wallaby-103580.hostingersite.com/api/v1/categories/2" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/v1/categories/16"
+    "https://lightgray-wallaby-103580.hostingersite.com/api/v1/categories/2"
 );
 
 const headers = {
@@ -1535,10 +1535,10 @@ You can check the Dev Tools console for debugging information.</code></pre>
  &nbsp;
                 <input type="number" style="display: none"
                step="any"               name="id"                data-endpoint="DELETEapi-v1-categories--id-"
-               value="16"
+               value="2"
                data-component="url">
     <br>
-<p>The ID of the category. Example: <code>16</code></p>
+<p>The ID of the category. Example: <code>2</code></p>
             </div>
                     <div style="padding-left: 28px; clear: unset;">
                 <b style="line-height: 2;"><code>category</code></b>&nbsp;&nbsp;
@@ -1570,14 +1570,14 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost/api/v1/user" \
+    --get "https://lightgray-wallaby-103580.hostingersite.com/api/v1/user" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/v1/user"
+    "https://lightgray-wallaby-103580.hostingersite.com/api/v1/user"
 );
 
 const headers = {
@@ -1594,7 +1594,7 @@ fetch(url, {
 
 <span id="example-responses-GETapi-v1-user">
             <blockquote>
-            <p>Example response (401):</p>
+            <p>Example response (404):</p>
         </blockquote>
                 <details class="annotation">
             <summary style="cursor: pointer;">
@@ -1606,7 +1606,7 @@ access-control-allow-origin: *
  </code></pre></details>         <pre>
 
 <code class="language-json" style="max-height: 300px;">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
+    &quot;message&quot;: &quot;The route api/v1/user could not be found.&quot;
 }</code>
  </pre>
     </span>
@@ -1700,14 +1700,14 @@ Results can be filtered by status, priority, category, and title search.</p>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost/api/v1/tasks?status=pending&amp;priority=high&amp;category_id=1&amp;search=Project&amp;page=1" \
+    --get "https://lightgray-wallaby-103580.hostingersite.com/api/v1/tasks?status=pending&amp;priority=high&amp;category_id=1&amp;search=Project&amp;page=1" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/v1/tasks"
+    "https://lightgray-wallaby-103580.hostingersite.com/api/v1/tasks"
 );
 
 const params = {
@@ -1933,7 +1933,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request POST \
-    "http://localhost/api/v1/tasks" \
+    "https://lightgray-wallaby-103580.hostingersite.com/api/v1/tasks" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
@@ -1949,7 +1949,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/v1/tasks"
+    "https://lightgray-wallaby-103580.hostingersite.com/api/v1/tasks"
 );
 
 const headers = {
@@ -2173,14 +2173,14 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost/api/v1/tasks/16" \
+    --get "https://lightgray-wallaby-103580.hostingersite.com/api/v1/tasks/2" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/v1/tasks/16"
+    "https://lightgray-wallaby-103580.hostingersite.com/api/v1/tasks/2"
 );
 
 const headers = {
@@ -2326,10 +2326,10 @@ You can check the Dev Tools console for debugging information.</code></pre>
  &nbsp;
                 <input type="number" style="display: none"
                step="any"               name="id"                data-endpoint="GETapi-v1-tasks--id-"
-               value="16"
+               value="2"
                data-component="url">
     <br>
-<p>The ID of the task. Example: <code>16</code></p>
+<p>The ID of the task. Example: <code>2</code></p>
             </div>
                     <div style="padding-left: 28px; clear: unset;">
                 <b style="line-height: 2;"><code>task</code></b>&nbsp;&nbsp;
@@ -2358,7 +2358,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request PUT \
-    "http://localhost/api/v1/tasks/16" \
+    "https://lightgray-wallaby-103580.hostingersite.com/api/v1/tasks/2" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
@@ -2374,7 +2374,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/v1/tasks/16"
+    "https://lightgray-wallaby-103580.hostingersite.com/api/v1/tasks/2"
 );
 
 const headers = {
@@ -2526,10 +2526,10 @@ You can check the Dev Tools console for debugging information.</code></pre>
  &nbsp;
                 <input type="number" style="display: none"
                step="any"               name="id"                data-endpoint="PUTapi-v1-tasks--id-"
-               value="16"
+               value="2"
                data-component="url">
     <br>
-<p>The ID of the task. Example: <code>16</code></p>
+<p>The ID of the task. Example: <code>2</code></p>
             </div>
                     <div style="padding-left: 28px; clear: unset;">
                 <b style="line-height: 2;"><code>task</code></b>&nbsp;&nbsp;
@@ -2625,14 +2625,14 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost/api/v1/tasks/16" \
+    "https://lightgray-wallaby-103580.hostingersite.com/api/v1/tasks/2" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/v1/tasks/16"
+    "https://lightgray-wallaby-103580.hostingersite.com/api/v1/tasks/2"
 );
 
 const headers = {
@@ -2758,10 +2758,10 @@ You can check the Dev Tools console for debugging information.</code></pre>
  &nbsp;
                 <input type="number" style="display: none"
                step="any"               name="id"                data-endpoint="DELETEapi-v1-tasks--id-"
-               value="16"
+               value="2"
                data-component="url">
     <br>
-<p>The ID of the task. Example: <code>16</code></p>
+<p>The ID of the task. Example: <code>2</code></p>
             </div>
                     <div style="padding-left: 28px; clear: unset;">
                 <b style="line-height: 2;"><code>task</code></b>&nbsp;&nbsp;
@@ -2790,15 +2790,15 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request POST \
-    "http://localhost/api/v1/tasks/16/image" \
+    "https://lightgray-wallaby-103580.hostingersite.com/api/v1/tasks/2/image" \
     --header "Content-Type: multipart/form-data" \
     --header "Accept: application/json" \
-    --form "image=@/private/var/folders/33/_5gcdz1s13l_3db0nwrcnxsr0000gn/T/php3htmqhfpqr1u199BOy0" </code></pre></div>
+    --form "image=@/private/var/folders/33/_5gcdz1s13l_3db0nwrcnxsr0000gn/T/phpi7bmpchsdh9eaiVAXUD" </code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/v1/tasks/16/image"
+    "https://lightgray-wallaby-103580.hostingersite.com/api/v1/tasks/2/image"
 );
 
 const headers = {
@@ -2941,10 +2941,10 @@ You can check the Dev Tools console for debugging information.</code></pre>
  &nbsp;
                 <input type="number" style="display: none"
                step="any"               name="task_id"                data-endpoint="POSTapi-v1-tasks--task_id--image"
-               value="16"
+               value="2"
                data-component="url">
     <br>
-<p>The ID of the task. Example: <code>16</code></p>
+<p>The ID of the task. Example: <code>2</code></p>
             </div>
                     <div style="padding-left: 28px; clear: unset;">
                 <b style="line-height: 2;"><code>task</code></b>&nbsp;&nbsp;
@@ -2967,7 +2967,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
                value=""
                data-component="body">
     <br>
-<p>The image file to upload (max 2MB, image file). Example: <code>/private/var/folders/33/_5gcdz1s13l_3db0nwrcnxsr0000gn/T/php3htmqhfpqr1u199BOy0</code></p>
+<p>The image file to upload (max 2MB, image file). Example: <code>/private/var/folders/33/_5gcdz1s13l_3db0nwrcnxsr0000gn/T/phpi7bmpchsdh9eaiVAXUD</code></p>
         </div>
         </form>
 

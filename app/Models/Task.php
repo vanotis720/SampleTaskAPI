@@ -35,7 +35,9 @@ class Task extends Model
     public function getImageUrlAttribute()
     {
         if ($this->image_path) {
-            return url(Storage::url($this->image_path));
+            // return  asset('storage/' . $this->image_path);
+            return config('app.url') . '/storage/' . str_replace('public/', '', $this->image_path);
+            // return url(Storage::url($this->image_path));
         }
         return null;
     }
